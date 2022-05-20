@@ -1,18 +1,44 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
-    padding: 3% 0 2% 4%;
+    padding: 2em 0 1em 2em;
     box-shadow: 1px 1px 10px 1px #0000004f;
 
 }
 nav > img {
-    width: 12%;
+    width: 6em;
 }
 
 .hero{
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.hero-banner{
     display: flex;
     justify-content: center;
     margin-top: 4%;
+}
+.hero-banner > img{
+    height: 24em;
+}
+
+
+.hero-text{
+    margin-top: 8%;
+}
+
+.hero-text > h1{
+    font-size: 3.5em;
+    font-weight: 600;   
+    margin-bottom: 0;
+}
+
+.hero-text > h3{
+    margin-top: 1em;
+    font-weight: 300;
+    width: 60%;
+    font-size:1.4em;
 }
