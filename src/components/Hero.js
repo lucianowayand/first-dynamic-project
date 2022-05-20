@@ -4,7 +4,7 @@ export default function Hero(){
     return(
         <div className="hero">
             <div className="hero-banner">
-                <img src={hero}></img>
+                <img src={hero} alt=""></img>
             </div>
             <div className="hero-text">
                 <h1>Online Experiences</h1>
