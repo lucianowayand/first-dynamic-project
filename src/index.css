@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+nav{
+    padding: 3% 0 2% 4%;
+    box-shadow: 1px 1px 10px 1px #0000004f;
+
+}
+nav > img {
+    width: 12%;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
